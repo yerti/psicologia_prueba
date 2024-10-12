@@ -1,0 +1,61 @@
+.contentCustomSelect {
+  width: 100%;
+  height: 52px;
+  position: relative;
+  border-radius: 8px;
+  margin: 0 0 22px;
+  background-color: white;
+  border: 1px solid var(--gris-one);
+  margin-top: 3px;
+}
+.label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--gris-one);
+  position: relative;
+}
+.contentImageArrow {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.imageArrow {
+  transform: rotate(-90deg);
+}
+.contentArrorwSelectOption {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+}
+.optionsList {
+  position: relative;
+  width: 100%;
+  max-height: 275px;
+  top: -2px;
+  padding: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  z-index: 99;
+}
+.optionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  min-height: 48px;
+  background-color: white;
+}
+.selectedOption {
+  color: #3f51b5;
+}

@@ -1,0 +1,1 @@
+export const NetworkException = new Error('Error de red.')

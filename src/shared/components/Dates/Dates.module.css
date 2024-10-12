@@ -1,0 +1,20 @@
+.contentDates {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 40px 80px;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+}
+
+.date h3 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.date p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}

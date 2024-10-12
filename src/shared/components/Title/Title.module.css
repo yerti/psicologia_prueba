@@ -1,0 +1,12 @@
+.title_text {
+  font-size: 34px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 769px) {
+  .title_text {
+    margin-top: 96px;
+  }
+}

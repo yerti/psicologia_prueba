@@ -1,0 +1,24 @@
+.topbarContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.contentImgMenu {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .topbarContainer {
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding: 16px;
+    right: 0;
+    z-index: 100;
+  }
+  .contentImgMenu {
+    display: block;
+  }
+}

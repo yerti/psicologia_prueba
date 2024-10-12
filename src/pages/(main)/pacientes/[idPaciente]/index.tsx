@@ -1,0 +1,1 @@
+export {default as IdPacientePage } from './ui/IdPacientePage'

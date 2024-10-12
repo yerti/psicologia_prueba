@@ -1,0 +1,1 @@
+export {PacientesPage as default } from '@/pages/(main)/pacientes'

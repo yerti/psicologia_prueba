@@ -1,0 +1,22 @@
+:root {
+  --background: #ffffff;
+  --black: #000000;
+  --plomo: #ecedf0;
+  --gris-one: #9fa0a1;
+  --gris-two: #f4f4f6;
+  --verde-claro: #6ac90f;
+  --rojo: #ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  overflow: hidden;
+}

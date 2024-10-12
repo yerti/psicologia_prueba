@@ -1,0 +1,7 @@
+.contentCardContainer {
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #f4f4f6;
+  background-color: var(--background);
+  margin-bottom: 20px;
+}

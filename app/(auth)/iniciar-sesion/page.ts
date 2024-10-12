@@ -1,0 +1,1 @@
+export { IniciarSesionPage as default } from '@/pages/(auth)/iniciar-sesion';

@@ -1,0 +1,32 @@
+.contentInputLabel {
+  margin-bottom: 20px;
+}
+
+.contentInputLabel input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid var(--gris-one);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+  margin-top: 5px;
+  outline: none;
+}
+.contentInputLabel label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--gris-one);
+  position: relative;
+}
+.iconInput {
+  position: absolute;
+  top: 37px;
+  right: 17px;
+}
+
+.errorMessage {
+  margin-top: 3px;
+  font-size: 12px;
+  color: #e30425;
+}

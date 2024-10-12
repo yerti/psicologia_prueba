@@ -1,0 +1,30 @@
+.primary,
+.secondary {
+  padding: 14px 20px;
+  background-color: #050505;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--background);
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.icon_button_component {
+  margin-right: 8px;
+}
+.secondary {
+  width: 100%;
+  text-align: center;
+}
+.third {
+  padding: 14px 20px;
+  background-color: var(--background);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--gris-two);
+}

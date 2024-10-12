@@ -1,0 +1,22 @@
+.contentControlSearch {
+  position: relative;
+  width: 100%;
+}
+.contentControlSearch input {
+  width: 90%;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #98a3b8;
+  padding-left: 48px;
+}
+.imgSearchControl {
+  position: absolute;
+  padding-left: 13px;
+  top: 32px;
+}
+.label {
+  color: var(--gris-one);
+}
+.contentControlSearch input:focus {
+  outline: none;
+}
